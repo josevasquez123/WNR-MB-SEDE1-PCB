@@ -1,0 +1,3859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\WaitNRest\1ra_sede\PCBs\MB\MB.kicad_sch</source>
+    <date>9/27/2023 3:06:16 PM</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MOTHERBOARD V1</title>
+        <company>WAIT N' REST</company>
+        <rev/>
+        <date/>
+        <source>MB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>POWER.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MCU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RELAYS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RELAYS_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97d784c4-5f11-4d29-8469-5e7378ff2326</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26778ae1-fa5a-426d-b75a-9a731366d5c8</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>006c3058-7bce-4a13-be3f-540c74196014</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d157cfc-b8aa-496f-aedc-cbdd772cdaef</tstamps>
+    </comp>
+    <comp ref="C100">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="LCSC">C445060</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C445060"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>02010432-14f4-42e3-8b63-92dbebb53754</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C694199</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C694199"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>0939af18-d57c-48cd-ae21-ef91f6d6dbce</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>0.47u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C342915</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C342915"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>b3bc90e8-403b-4df3-a1c4-782812242f0d</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C385892</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C385892"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>e6501504-7cd1-4dcc-ad76-10ae87f3792f</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>18p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1854115</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1854115"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>ab816d48-c8fc-43f9-9048-690f995f4e26</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C380338</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C380338"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>55ef1a0d-43b9-4dc1-9b92-43fa9f5b5931</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C380338</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C380338"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>f5b62a78-936f-46f7-8dd6-28c4a3cc85e7</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>e685afc6-36bc-44c9-b7b4-e57a4a1f9748</tstamps>
+    </comp>
+    <comp ref="C108">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>5140a2b5-4ee1-4580-9b8d-3b3c8fbf8e05</tstamps>
+    </comp>
+    <comp ref="D100">
+      <value>SMF24A-TP</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C545276</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C545276"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>9920af1e-e2ae-415f-a9ae-1929bf65dfad</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>MMSZ4697T1G</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C48870</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C48870"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>5e2eb447-3545-4ceb-8313-c399435d0898</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>d016183d-dc0f-4278-a7c8-e811929823ec</tstamps>
+    </comp>
+    <comp ref="J100">
+      <value>VCC INPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>1759a383-180f-4e48-9ebe-bbb28cdd6c89</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>SWITCH ON/OFF</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>12258a50-c7d2-40d7-a5aa-6bb1b18ef1df</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>FAN VOLTAGE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>ccaf4871-236f-438b-899f-ad64d4b5d4d3</tstamps>
+    </comp>
+    <comp ref="L100">
+      <value>3.3u</value>
+      <footprint>Jose_:SMD_I_6.6x7.1mm</footprint>
+      <fields>
+        <field name="LCSC">C2847482</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C2847482"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>3b8df29a-8298-409c-a5bb-77951ab79e95</tstamps>
+    </comp>
+    <comp ref="Q100">
+      <value>WST4045</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C719073</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C719073"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>6edbd7ef-e2f7-42e1-aca5-df3ed4b61956</tstamps>
+    </comp>
+    <comp ref="R100">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17900"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>bc576512-ef42-42c0-bae7-9bcc34274985</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>88.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C728599</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C728599"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>a9703918-9ad4-4f1d-801c-7c3190f0d51f</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>22.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C137768</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C137768"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>8bda6230-fa43-4f9b-a5e6-440d662d8eed</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>8f0717eb-a29e-441e-866f-b6c2a42a8676</tstamps>
+    </comp>
+    <comp ref="TP100">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>d3ca10c5-84ee-47d8-acba-37774380f0ea</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>009ac976-748c-4075-ae26-93c5db29063c</tstamps>
+    </comp>
+    <comp ref="TP102">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>244c2f31-e034-4543-9751-194cdb7ace38</tstamps>
+    </comp>
+    <comp ref="TP103">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>4329571c-5552-4bdd-9451-8a2fc90c9e5f</tstamps>
+    </comp>
+    <comp ref="TP104">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>2a474799-7b0e-40b3-aac9-ba29f169795c</tstamps>
+    </comp>
+    <comp ref="U100">
+      <value>LMR23625CFDDA</value>
+      <footprint>LMR23625:VREG_LM5017MR_NOPB</footprint>
+      <fields>
+        <field name="LCSC">C2070635</field>
+      </fields>
+      <libsource lib="LMR23625" part="LMR23625CFDDA" description=""/>
+      <property name="LCSC" value="C2070635"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>ab5197cd-37a9-411f-93d8-7fd17f0f113f</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6186</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="LCSC" value="C6186"/>
+      <property name="Sheetname" value="POWER"/>
+      <property name="Sheetfile" value="POWER.kicad_sch"/>
+      <sheetpath names="/POWER/" tstamps="/7752d418-0e4a-4d00-aa5d-625f7888e637/"/>
+      <tstamps>b6464ae5-9eea-4189-a110-226342504733</tstamps>
+    </comp>
+    <comp ref="C200">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C19702"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>bf979915-f141-41e1-977a-adc702564d16</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>59173e1f-2eb8-4b42-8c1d-3c309781d849</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>4f59e2de-a64d-4a08-8754-285b07671bec</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>f1a91e55-d320-44d8-afa2-9afb525c01b9</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>421b4735-1425-42d8-ac04-398c05b12c2f</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>b5d229b2-eea0-48b6-ad8b-6033c3f6178a</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C32949</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C32949"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>8bb86339-9add-42d1-b44b-41dc8f402f63</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C32949</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C32949"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>039f485b-36a5-4217-9c16-6ab6e9c99a56</tstamps>
+    </comp>
+    <comp ref="H100">
+      <value>WIZ850IO</value>
+      <footprint>WIZ850:WIZ850IO</footprint>
+      <fields>
+        <field name="ARROW_PART_NUMBER">WIZ850IO</field>
+        <field name="ARROW_PRICE-STOCK">https://www.arrow.com/en/products/wiz850io/wiznet</field>
+        <field name="DESCRIPTION">WIZ820io network module that uses SPI and includes a W5500 and RJ45 jack with integrated transformer</field>
+        <field name="HEIGHT">17mm</field>
+        <field name="MANUFACTURER_NAME">Wiznet Technology</field>
+        <field name="MANUFACTURER_PART_NUMBER">WIZ850IO</field>
+      </fields>
+      <libsource lib="WIZ850IO" part="WIZ850IO" description=""/>
+      <property name="MANUFACTURER_NAME" value="Wiznet Technology"/>
+      <property name="RS_PRICE-STOCK" value=""/>
+      <property name="DESCRIPTION" value="WIZ820io network module that uses SPI and includes a W5500 and RJ45 jack with integrated transformer"/>
+      <property name="RS_PART_NUMBER" value=""/>
+      <property name="HEIGHT" value="17mm"/>
+      <property name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/wiz850io/wiznet"/>
+      <property name="ARROW_PART_NUMBER" value="WIZ850IO"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="WIZ850IO"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>6f1cd447-9964-4dd0-b413-9e541685df73</tstamps>
+    </comp>
+    <comp ref="J200">
+      <value>Serial Wire Debug</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>fe3fca86-9d60-4a98-94d5-ffba285878b7</tstamps>
+    </comp>
+    <comp ref="R200">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>e302c0c4-7696-4ca4-b926-dfd60a9e73ce</tstamps>
+    </comp>
+    <comp ref="S200">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>Jose_:SWITCH_SMD</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="SWITCH_SMD" part="TS-1187A-B-A-B" description=""/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>de451390-5c79-4ad8-855f-32fb6edc783a</tstamps>
+    </comp>
+    <comp ref="U200">
+      <value>STM32F103C8Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</datasheet>
+      <libsource lib="MCU_ST_STM32F1" part="STM32F103C8Tx" description="ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>8cdc5aa3-4d41-47cd-86d9-a88217b2ab97</tstamps>
+    </comp>
+    <comp ref="Y200">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C13738</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="LCSC" value="C13738"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/a9e7e980-5cd4-4cae-8a17-5cc7de02091c/"/>
+      <tstamps>2452e620-4a92-4b1f-a327-fc4ef8011889</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>2d573076-978c-4355-8bc6-923dff89109d</tstamps>
+    </comp>
+    <comp ref="D302">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>6db319a8-edba-44c3-bcdc-9941fa7db1bb</tstamps>
+    </comp>
+    <comp ref="D304">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>fcb16658-476a-43dc-b6b1-967e832e3f6f</tstamps>
+    </comp>
+    <comp ref="D305">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>25939291-a236-40dc-b3e2-a06da9cabdc5</tstamps>
+    </comp>
+    <comp ref="D307">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>a8fa6c7b-21e8-49c8-b243-cde89292954f</tstamps>
+    </comp>
+    <comp ref="D308">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>aec35d09-b7cf-4f87-b991-a29f9fcf65ee</tstamps>
+    </comp>
+    <comp ref="D310">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>7ad12ebc-52e7-4fba-bf4b-daf684f41917</tstamps>
+    </comp>
+    <comp ref="D311">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>ff1d7b7e-610a-43cf-ae2d-4dfc090354bb</tstamps>
+    </comp>
+    <comp ref="D313">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>3057a9bc-05bb-41c1-9b98-ccafe1e461de</tstamps>
+    </comp>
+    <comp ref="D314">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>f23d0768-ad59-4c9e-880f-c0199acc21b5</tstamps>
+    </comp>
+    <comp ref="D316">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>6f9835c7-1c48-4055-9519-15b75a4254f4</tstamps>
+    </comp>
+    <comp ref="D317">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>21c0db1e-e409-454d-b261-43c43ac54feb</tstamps>
+    </comp>
+    <comp ref="D319">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>3df83371-080d-4f29-8592-61b40d290b48</tstamps>
+    </comp>
+    <comp ref="D320">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>48a1a1dd-56e3-4533-aa65-670b9e5e5caa</tstamps>
+    </comp>
+    <comp ref="D322">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>324b39aa-2137-4fd3-a7cc-c39b18b56e5a</tstamps>
+    </comp>
+    <comp ref="D323">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>b185775d-ea01-46a4-b50c-6e9f44968c9d</tstamps>
+    </comp>
+    <comp ref="D325">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>a05c8a59-da34-49d7-8b2a-9b1b15f45601</tstamps>
+    </comp>
+    <comp ref="D326">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>b0b0c3f6-8078-46a4-bbb8-d69a7d9d1ccd</tstamps>
+    </comp>
+    <comp ref="D328">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>6f0dff08-942d-49d5-ba15-ee0575283690</tstamps>
+    </comp>
+    <comp ref="D329">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>63649d36-ed5d-4faa-b833-5477731cc8f4</tstamps>
+    </comp>
+    <comp ref="J300">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>cdf8e6d6-6bc8-4d8d-8fe7-3ee09057c255</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>af5efda7-7efe-46de-8552-78659057e038</tstamps>
+    </comp>
+    <comp ref="J302">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>50f3e7c4-ac20-4e28-a4ab-a03610f7e5ad</tstamps>
+    </comp>
+    <comp ref="J303">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>13e4eb59-af1c-47d6-92aa-8fedd55ab837</tstamps>
+    </comp>
+    <comp ref="J304">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>f7f67199-ac8f-41e1-927e-15421361ff12</tstamps>
+    </comp>
+    <comp ref="J305">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>41e270d7-82d2-43d2-b786-a0479d801d9c</tstamps>
+    </comp>
+    <comp ref="J306">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>e7e39495-e5c4-4fdc-8f89-5a4396cd9b19</tstamps>
+    </comp>
+    <comp ref="J307">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>fca8301d-366c-4eb0-960a-7236e8707f4c</tstamps>
+    </comp>
+    <comp ref="J308">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>7e6eb526-ebc5-45e2-b301-716accf06a78</tstamps>
+    </comp>
+    <comp ref="J309">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>635007ff-a45d-4c92-8815-0c16a8f82683</tstamps>
+    </comp>
+    <comp ref="K300">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>7c99e35d-80f3-476b-893d-bbad4b718db0</tstamps>
+    </comp>
+    <comp ref="K301">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>3e4ae309-7b79-4115-a2c6-a6bc730fe3f9</tstamps>
+    </comp>
+    <comp ref="K302">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>ad177f46-c41d-46ab-bf8f-e8d6715828ae</tstamps>
+    </comp>
+    <comp ref="K303">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>4544a0a1-c406-4aa8-a0bc-e681db1468fe</tstamps>
+    </comp>
+    <comp ref="K304">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>cb31e1f1-e5a9-4b35-9c37-7181f8d7550c</tstamps>
+    </comp>
+    <comp ref="K305">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>2481c6fd-669f-4247-91b5-7aaacc7b779d</tstamps>
+    </comp>
+    <comp ref="K306">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>8f1e0a17-97db-448f-8bbd-599b1abbda7b</tstamps>
+    </comp>
+    <comp ref="K307">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>4f951967-ea1f-4b82-86c1-e8a22a056ace</tstamps>
+    </comp>
+    <comp ref="K308">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>9bc9b506-878d-45a7-95be-cb39768e7744</tstamps>
+    </comp>
+    <comp ref="K309">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>ea85c9c3-ae3e-4b64-a0c9-2288a980e607</tstamps>
+    </comp>
+    <comp ref="Q300">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>856ac31f-273e-4fb0-bbe8-2682fb2183ab</tstamps>
+    </comp>
+    <comp ref="Q301">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>172c82c2-0dfd-470d-90d9-0bf0796a47c9</tstamps>
+    </comp>
+    <comp ref="Q302">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>9904d285-2380-45b8-9c72-a7bb3df5c9f5</tstamps>
+    </comp>
+    <comp ref="Q303">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>4fc2c15b-4840-4995-96dc-65dcecd14a7a</tstamps>
+    </comp>
+    <comp ref="Q304">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>06d31b19-bab7-4f42-8b08-6ab37612c66a</tstamps>
+    </comp>
+    <comp ref="Q305">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>70093e31-6690-4d52-a238-c1a4144f35e1</tstamps>
+    </comp>
+    <comp ref="Q306">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>ef5d9ebe-83ee-42a3-99df-1751683c0a4c</tstamps>
+    </comp>
+    <comp ref="Q307">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>83a9e100-f629-4b07-b0c6-b945f2ca494a</tstamps>
+    </comp>
+    <comp ref="Q308">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>2c4f86d0-f24b-4b4b-bfa8-b7552652688e</tstamps>
+    </comp>
+    <comp ref="Q309">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>873c1b21-ade8-4ada-9fca-568ad9b1deb9</tstamps>
+    </comp>
+    <comp ref="R300">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>a79c7001-8560-47fc-93e0-503ff9dd4fd2</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>7ef52421-1fcb-4f1a-a508-8460bb8e5387</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>908f4208-3f45-4693-9b9b-1596c17e1a9f</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>078d8448-fe35-454e-a8d2-fe0d3dfa0126</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>312c6d52-7656-4ea7-9cb9-6ac6683328a4</tstamps>
+    </comp>
+    <comp ref="R305">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>8703ed6d-bb80-4a72-af7a-5134b7c319b1</tstamps>
+    </comp>
+    <comp ref="R306">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>4838217d-88a7-4d87-8ad5-7ccc655ad11f</tstamps>
+    </comp>
+    <comp ref="R307">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>088247e8-9e8e-464a-922f-a267f5c6d3b2</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>9b919c75-910e-48f7-bbf6-2486ed007996</tstamps>
+    </comp>
+    <comp ref="R309">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>ffb49b08-b465-4a2a-a41a-6a0c280fb08c</tstamps>
+    </comp>
+    <comp ref="R310">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>297d088f-0923-47fa-83ff-19464984ed91</tstamps>
+    </comp>
+    <comp ref="R311">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>7c55115c-a057-4693-9cbc-9f10a6478e77</tstamps>
+    </comp>
+    <comp ref="R312">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>6efa242b-f9a3-456d-a64c-e2041e921979</tstamps>
+    </comp>
+    <comp ref="R313">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>4df6f391-a502-4f4a-8e6c-f7730918fa05</tstamps>
+    </comp>
+    <comp ref="R314">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>e26c9c86-53ed-45b7-a07c-3ab90cb74d30</tstamps>
+    </comp>
+    <comp ref="R315">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>eefd9851-b8ed-4ec1-80e7-402aec6489e8</tstamps>
+    </comp>
+    <comp ref="R316">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>d9615bab-fccc-4fb4-833e-dd73dbca488d</tstamps>
+    </comp>
+    <comp ref="R317">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>e20509e6-d919-4b26-8f9c-085e59890770</tstamps>
+    </comp>
+    <comp ref="R318">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>99d397f7-5995-4f90-a0b7-944a5667c82b</tstamps>
+    </comp>
+    <comp ref="R319">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>9bce9e6e-94b2-42be-a384-4c73be736b78</tstamps>
+    </comp>
+    <comp ref="R320">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>6029bd34-46c8-479b-9720-8e27172fe089</tstamps>
+    </comp>
+    <comp ref="R321">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>13378529-a847-476d-829b-b5330e1b31eb</tstamps>
+    </comp>
+    <comp ref="R322">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>a20821cf-b175-489f-a82a-81fa29b4594b</tstamps>
+    </comp>
+    <comp ref="R323">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>65aee230-e963-4374-8fab-0b3235c5cb67</tstamps>
+    </comp>
+    <comp ref="R324">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>3d5ecfbc-b043-4d15-92b7-a8759e2fb55f</tstamps>
+    </comp>
+    <comp ref="R325">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>971af624-d20b-47de-8f02-c5f0522a5f11</tstamps>
+    </comp>
+    <comp ref="R326">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>45b72ad8-4844-4faf-b9b5-dd9e48fc482a</tstamps>
+    </comp>
+    <comp ref="R327">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>e2851bbe-1c39-4074-8160-a0fac0bf6c7c</tstamps>
+    </comp>
+    <comp ref="R328">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>f5598eae-192e-4b35-80cd-8d94aa7294cb</tstamps>
+    </comp>
+    <comp ref="R329">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS"/>
+      <property name="Sheetfile" value="RELAYS.kicad_sch"/>
+      <sheetpath names="/RELAYS/" tstamps="/087be3d3-9e82-4620-ba0d-2da8e77adf5c/"/>
+      <tstamps>aae4bf71-00c0-4964-8a61-667c250f9a37</tstamps>
+    </comp>
+    <comp ref="D401">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>79a6984f-1e39-4431-9122-b3ca4ee52948</tstamps>
+    </comp>
+    <comp ref="D402">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>2ac0bce6-40a6-4ff6-b10b-413c574bbe69</tstamps>
+    </comp>
+    <comp ref="D404">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>2cd6a053-1ab0-4097-a896-c24a48441343</tstamps>
+    </comp>
+    <comp ref="D405">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>208e0308-23b3-489a-bfca-63105f17a420</tstamps>
+    </comp>
+    <comp ref="D407">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>a3079d5e-65fe-4c9e-89e1-a17d3d0aac17</tstamps>
+    </comp>
+    <comp ref="D408">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>39304f4c-12a4-400c-98b3-79cd03b86171</tstamps>
+    </comp>
+    <comp ref="D410">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>b43cbbe6-dcd3-437d-b45f-66f426cfa91b</tstamps>
+    </comp>
+    <comp ref="D411">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>1535059a-aea4-4fa5-b370-0fe84d7f5c1d</tstamps>
+    </comp>
+    <comp ref="D413">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>f5256ff3-40c0-460e-8c79-e896915b6e69</tstamps>
+    </comp>
+    <comp ref="D414">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>feff9cb2-36eb-4e3b-8cd5-cec55fe20edf</tstamps>
+    </comp>
+    <comp ref="D416">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>e7b49fad-13a5-48b5-b680-e6f6dc080aca</tstamps>
+    </comp>
+    <comp ref="D417">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>4e6d48b6-56eb-4f7f-a3d2-db554abe81a3</tstamps>
+    </comp>
+    <comp ref="D419">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>35ad83f9-6b64-4629-ad3b-2713a2ab3459</tstamps>
+    </comp>
+    <comp ref="D420">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>c7a14128-fe0b-41fd-9feb-cff8e720ce01</tstamps>
+    </comp>
+    <comp ref="D422">
+      <value>SM4007PL</value>
+      <footprint>Jose_:SOD_123FL</footprint>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C64898"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>16918d09-14d2-4f8b-9b9f-0d448095bbf8</tstamps>
+    </comp>
+    <comp ref="D423">
+      <value>LED_DOOR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72038"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>49a78e08-38c5-4139-b596-f23c44a264fd</tstamps>
+    </comp>
+    <comp ref="J400">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>188f6e23-8ae2-4d65-8274-dd702a5cc63e</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>4f0a4bb1-bf87-429e-ae74-8a93d9790a07</tstamps>
+    </comp>
+    <comp ref="J402">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>8e3820aa-c67d-4863-82f6-1d18f6e5e40d</tstamps>
+    </comp>
+    <comp ref="J403">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>7c2fb4e6-21ad-44d5-8b8b-319a90be62d9</tstamps>
+    </comp>
+    <comp ref="J404">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>878015bc-4f8e-484c-ba2b-c575e464e114</tstamps>
+    </comp>
+    <comp ref="J405">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>f7a24157-dc63-425b-b008-7f5c3f92e3dc</tstamps>
+    </comp>
+    <comp ref="J406">
+      <value>MESA_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>31eb1d25-2afc-419e-8d2e-2927925811ed</tstamps>
+    </comp>
+    <comp ref="J407">
+      <value>TECHO_OUTPUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>8bc1eed3-1dee-42ad-a49d-555b48142449</tstamps>
+    </comp>
+    <comp ref="K400">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>bf94e6b8-be84-413a-956c-3b0ef3273ebe</tstamps>
+    </comp>
+    <comp ref="K401">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>598e1cc1-6ef2-49fb-9574-cce6f3372320</tstamps>
+    </comp>
+    <comp ref="K402">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>56350e7d-8337-4e2d-b2de-4e53fd4f6fc2</tstamps>
+    </comp>
+    <comp ref="K403">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>9cc5e932-894a-4efa-89be-83ed7da5ace2</tstamps>
+    </comp>
+    <comp ref="K404">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>60b848ef-c62b-4705-9c39-ebf59e8a1096</tstamps>
+    </comp>
+    <comp ref="K405">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>787df51b-fd8e-4cd0-baf0-b67fe152e7a0</tstamps>
+    </comp>
+    <comp ref="K406">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>f0a142bb-f193-41f6-a1d5-f5bcf7eb4139</tstamps>
+    </comp>
+    <comp ref="K407">
+      <value>HF49FD/005-1H12T</value>
+      <footprint>HF49FD_005-1H11F:HF49FD0051H11F</footprint>
+      <fields>
+        <field name="MANUFACTURER">HONGFA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T" description=""/>
+      <property name="PARTREV" value="1.13"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="12.80mm"/>
+      <property name="MANUFACTURER" value="HONGFA"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>4f226f66-35bd-4cf0-bd53-267c2dfc82fd</tstamps>
+    </comp>
+    <comp ref="Q400">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>24abf414-3619-4538-9850-f551fc846da9</tstamps>
+    </comp>
+    <comp ref="Q401">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>a1c10bdd-9efd-46f2-8889-6066eb964e6e</tstamps>
+    </comp>
+    <comp ref="Q402">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>21450aec-4768-47b3-9017-a5045212c0ae</tstamps>
+    </comp>
+    <comp ref="Q403">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>21ee1d86-2cb1-4e54-8949-96df0bcb45b9</tstamps>
+    </comp>
+    <comp ref="Q404">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>6ddb68c0-e27a-405a-9677-de32665a0577</tstamps>
+    </comp>
+    <comp ref="Q405">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>b33d5e87-eed5-4dab-8bff-b567aee3200d</tstamps>
+    </comp>
+    <comp ref="Q406">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>f6457985-eeea-4292-97bb-4314f980a24e</tstamps>
+    </comp>
+    <comp ref="Q407">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C20526</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5550L" description="0.6A Ic, 140V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>0604d5eb-f09f-4ad6-afeb-8aa69322c7f5</tstamps>
+    </comp>
+    <comp ref="R400">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>4ee41aa5-0ca5-4a72-a322-757ae09431c0</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>5221c8e2-6b67-47ab-8793-03db912d5969</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>dd6a81d6-c508-4232-b3e7-98769db2a67f</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>f21f8db5-5e41-4b91-bb2d-0b2ce0e47483</tstamps>
+    </comp>
+    <comp ref="R404">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>5879dcea-62c3-4c77-9790-d6c5a06b862b</tstamps>
+    </comp>
+    <comp ref="R405">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>a139f773-aa85-47af-b589-4b7791b08edb</tstamps>
+    </comp>
+    <comp ref="R406">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>ca635db3-3457-4ea6-8fa8-edfcef66f163</tstamps>
+    </comp>
+    <comp ref="R407">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>54091e9c-539f-4a74-94a6-077d802134e8</tstamps>
+    </comp>
+    <comp ref="R408">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>4f75a2b9-3dff-4502-bb15-3b8a21b17738</tstamps>
+    </comp>
+    <comp ref="R409">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>1af7b08a-23c0-45cf-949e-18c9a2499d55</tstamps>
+    </comp>
+    <comp ref="R410">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>a3dbcc7f-25e6-4877-98fa-f13599ad62ad</tstamps>
+    </comp>
+    <comp ref="R411">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>bfc11b8b-7645-439f-be0e-961901b90f3a</tstamps>
+    </comp>
+    <comp ref="R412">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>af91d48c-c083-462c-8f4e-c301422b1636</tstamps>
+    </comp>
+    <comp ref="R413">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>798c6597-7a11-43e3-a060-7f12b1b8be01</tstamps>
+    </comp>
+    <comp ref="R414">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>77c0703c-d15f-456c-953a-f48ed09c4a14</tstamps>
+    </comp>
+    <comp ref="R415">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>1f671c33-66c2-4025-9243-57be61eb89bc</tstamps>
+    </comp>
+    <comp ref="R416">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>56297edf-568c-44dd-9c39-6da3ffd4d0ff</tstamps>
+    </comp>
+    <comp ref="R417">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>3d2bdec8-3c42-4e03-afd2-aaf419bb1b29</tstamps>
+    </comp>
+    <comp ref="R418">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>ea647547-b91d-497a-a65d-4f38213f7022</tstamps>
+    </comp>
+    <comp ref="R419">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>1797ff15-75eb-495b-8996-73aff023d82f</tstamps>
+    </comp>
+    <comp ref="R420">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>b3540330-ecbf-421e-b973-8a82ce33d8d7</tstamps>
+    </comp>
+    <comp ref="R421">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>30da9f80-56ca-4ed9-8862-1071b5ce3f77</tstamps>
+    </comp>
+    <comp ref="R422">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>f891b7b0-2eb8-4a4a-9aaa-506d00c7eb00</tstamps>
+    </comp>
+    <comp ref="R423">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="RELAYS_2"/>
+      <property name="Sheetfile" value="RELAYS_2.kicad_sch"/>
+      <sheetpath names="/RELAYS_2/" tstamps="/a087ce35-4ed2-4a8b-b604-c90ede0b2894/"/>
+      <tstamps>a20f57fe-3567-4f40-b386-4a8c15305292</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HF49FD_005-1H12T" part="HF49FD{slash}005-1H12T">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">HF49FD{slash}005-1H12T</field>
+        <field name="Footprint">RELAY_HF49FD/005-1H12T</field>
+        <field name="PARTREV">1.13</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="MANUFACTURER">HONGFA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LMR23625" part="LMR23625CFDDA">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR23625CFDDA</field>
+        <field name="Footprint">LMR23625CFDDA:VREG_LM5017MR/NOPB</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description">
+SIMPLE SWITCHER®, 36V 2.5A Synchronous Step-Down Converter
+</field>
+        <field name="Package">HSOIC-8 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LMR23625CFDDA/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">LMR23625CFDDA</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1241541&amp;manufacturer=Texas Instruments&amp;part_name=LMR23625CFDDA&amp;search_term=lmr23625</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LMR23625CFDDA/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="output"/>
+        <pin num="2" name="BOOT" type="bidirectional"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN/SYNC" type="input"/>
+        <pin num="6" name="AGND" type="power_in"/>
+        <pin num="7" name="VIN" type="input"/>
+        <pin num="8" name="PGND" type="power_in"/>
+        <pin num="9" name="GND_PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F1" part="STM32F103C8Tx">
+      <description>ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F103C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PD0" type="input"/>
+        <pin num="6" name="PD1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="bidirectional"/>
+        <pin num="11" name="PA1" type="bidirectional"/>
+        <pin num="12" name="PA2" type="bidirectional"/>
+        <pin num="13" name="PA3" type="bidirectional"/>
+        <pin num="14" name="PA4" type="bidirectional"/>
+        <pin num="15" name="PA5" type="bidirectional"/>
+        <pin num="16" name="PA6" type="bidirectional"/>
+        <pin num="17" name="PA7" type="bidirectional"/>
+        <pin num="18" name="PB0" type="bidirectional"/>
+        <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="20" name="PB2" type="bidirectional"/>
+        <pin num="21" name="PB10" type="bidirectional"/>
+        <pin num="22" name="PB11" type="bidirectional"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA8" type="bidirectional"/>
+        <pin num="30" name="PA9" type="bidirectional"/>
+        <pin num="31" name="PA10" type="bidirectional"/>
+        <pin num="32" name="PA11" type="bidirectional"/>
+        <pin num="33" name="PA12" type="bidirectional"/>
+        <pin num="34" name="PA13" type="bidirectional"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14" type="bidirectional"/>
+        <pin num="38" name="PA15" type="bidirectional"/>
+        <pin num="39" name="PB3" type="bidirectional"/>
+        <pin num="40" name="PB4" type="bidirectional"/>
+        <pin num="41" name="PB5" type="bidirectional"/>
+        <pin num="42" name="PB6" type="bidirectional"/>
+        <pin num="43" name="PB7" type="bidirectional"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SWITCH_SMD" part="TS-1187A-B-A-B">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TS-1187A-B-A-B</field>
+        <field name="Footprint">SW_TS-1187A-B-A-B</field>
+        <field name="PARTREV">A0</field>
+        <field name="MANUFACTURER">XKB Industrial Precision</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.5mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="B" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+        <pin num="D" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT5550L">
+      <description>0.6A Ic, 140V Vce, NPN Transistor, SOT-23</description>
+      <docs>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT5550L</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WIZ850IO" part="WIZ850IO">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">WIZ850IO</field>
+        <field name="Footprint">WIZ850IO</field>
+        <field name="MANUFACTURER_NAME">Wiznet Technology</field>
+        <field name="DESCRIPTION">WIZ820io network module that uses SPI and includes a W5500 and RJ45 jack with integrated transformer</field>
+        <field name="HEIGHT">17mm</field>
+        <field name="ARROW_PRICE-STOCK">https://www.arrow.com/en/products/wiz850io/wiznet</field>
+        <field name="ARROW_PART_NUMBER">WIZ850IO</field>
+        <field name="MANUFACTURER_PART_NUMBER">WIZ850IO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="bidirectional"/>
+        <pin num="2" name="GND_2" type="bidirectional"/>
+        <pin num="3" name="MOSI" type="bidirectional"/>
+        <pin num="4" name="SCLK" type="bidirectional"/>
+        <pin num="5" name="SCNN" type="bidirectional"/>
+        <pin num="6" name="INTN" type="bidirectional"/>
+        <pin num="7" name="GND_3" type="bidirectional"/>
+        <pin num="8" name="3.3V_1" type="bidirectional"/>
+        <pin num="9" name="3.3V_2" type="bidirectional"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="RSTN" type="bidirectional"/>
+        <pin num="12" name="MISO" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="HF49FD_005-1H12T">
+      <uri>D:/Kicad_Libraries/HF49_RELAY/HF49FD_005-1H12T.kicad_sym</uri>
+    </library>
+    <library logical="LMR23625">
+      <uri>D:/Kicad_Libraries/LMR23625/LMR23625CFDDA.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32F1">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/MCU_ST_STM32F1.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SWITCH_SMD">
+      <uri>D:/Kicad_Libraries/Switch_SMD/TS-1187A-B-A-B.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="WIZ850IO">
+      <uri>D:/Kicad_Libraries/WIZ850io/WIZ850IO.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C108" pin="1" pintype="passive"/>
+      <node ref="C200" pin="1" pintype="passive"/>
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="H100" pin="8" pinfunction="3.3V_1" pintype="bidirectional"/>
+      <node ref="H100" pin="9" pinfunction="3.3V_2" pintype="bidirectional"/>
+      <node ref="TP103" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U200" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U200" pin="24" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U200" pin="36" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U200" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U200" pin="9" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D304" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D307" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D310" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D313" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D316" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D319" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D322" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D325" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D328" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D401" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D404" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D407" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D410" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D413" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D416" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D419" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D422" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K300" pin="2" pintype="passive"/>
+      <node ref="K301" pin="2" pintype="passive"/>
+      <node ref="K302" pin="2" pintype="passive"/>
+      <node ref="K303" pin="2" pintype="passive"/>
+      <node ref="K304" pin="2" pintype="passive"/>
+      <node ref="K305" pin="2" pintype="passive"/>
+      <node ref="K306" pin="2" pintype="passive"/>
+      <node ref="K307" pin="2" pintype="passive"/>
+      <node ref="K308" pin="2" pintype="passive"/>
+      <node ref="K309" pin="2" pintype="passive"/>
+      <node ref="K400" pin="2" pintype="passive"/>
+      <node ref="K401" pin="2" pintype="passive"/>
+      <node ref="K402" pin="2" pintype="passive"/>
+      <node ref="K403" pin="2" pintype="passive"/>
+      <node ref="K404" pin="2" pintype="passive"/>
+      <node ref="K405" pin="2" pintype="passive"/>
+      <node ref="K406" pin="2" pintype="passive"/>
+      <node ref="K407" pin="2" pintype="passive"/>
+      <node ref="L100" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R300" pin="2" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R306" pin="2" pintype="passive"/>
+      <node ref="R309" pin="2" pintype="passive"/>
+      <node ref="R312" pin="2" pintype="passive"/>
+      <node ref="R315" pin="2" pintype="passive"/>
+      <node ref="R318" pin="2" pintype="passive"/>
+      <node ref="R321" pin="2" pintype="passive"/>
+      <node ref="R324" pin="2" pintype="passive"/>
+      <node ref="R327" pin="2" pintype="passive"/>
+      <node ref="R400" pin="2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="R406" pin="2" pintype="passive"/>
+      <node ref="R409" pin="2" pintype="passive"/>
+      <node ref="R412" pin="2" pintype="passive"/>
+      <node ref="R415" pin="2" pintype="passive"/>
+      <node ref="R418" pin="2" pintype="passive"/>
+      <node ref="R421" pin="2" pintype="passive"/>
+      <node ref="TP102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="C100" pin="1" pintype="passive"/>
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q100" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U100" pin="5" pinfunction="EN/SYNC" pintype="input"/>
+      <node ref="U100" pin="7" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="4" name="/MCU/BOOT0">
+      <node ref="R200" pin="1" pintype="passive"/>
+      <node ref="U200" pin="44" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="5" name="/MCU/ETH_CS">
+      <node ref="H100" pin="5" pinfunction="SCNN" pintype="bidirectional"/>
+      <node ref="U200" pin="18" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/MCU/ETH_MISO">
+      <node ref="H100" pin="12" pinfunction="MISO" pintype="bidirectional"/>
+      <node ref="U200" pin="16" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/MCU/ETH_MOSI">
+      <node ref="H100" pin="3" pinfunction="MOSI" pintype="bidirectional"/>
+      <node ref="U200" pin="17" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/MCU/ETH_RST">
+      <node ref="H100" pin="11" pinfunction="RSTN" pintype="bidirectional"/>
+      <node ref="U200" pin="13" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/MCU/ETH_SCK">
+      <node ref="H100" pin="4" pinfunction="SCLK" pintype="bidirectional"/>
+      <node ref="U200" pin="15" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/MCU/HSE_IN">
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="U200" pin="5" pinfunction="PD0" pintype="input"/>
+      <node ref="Y200" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/MCU/HSE_OUT">
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="U200" pin="6" pinfunction="PD1" pintype="input"/>
+      <node ref="Y200" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="12" name="/MCU/NRST">
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="S200" pin="C" pintype="passive"/>
+      <node ref="S200" pin="D" pintype="passive"/>
+      <node ref="U200" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="13" name="/MCU/SCLK">
+      <node ref="J200" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U200" pin="37" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/MCU/SWDIO">
+      <node ref="J200" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U200" pin="34" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/POWER/FB">
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="U100" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="16" name="/POWER/SW">
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="L100" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U100" pin="1" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="17" name="/POWER/V_INPUT">
+      <node ref="D100" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J100" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP100" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/POWER/switch">
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q100" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="19" name="1_MESA">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="U200" pin="32" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="1_TECHO">
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="U200" pin="38" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="2_MESA">
+      <node ref="R307" pin="1" pintype="passive"/>
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="U200" pin="39" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="2_TECHO">
+      <node ref="R310" pin="1" pintype="passive"/>
+      <node ref="R311" pin="2" pintype="passive"/>
+      <node ref="U200" pin="40" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="3_MESA">
+      <node ref="R313" pin="1" pintype="passive"/>
+      <node ref="R314" pin="2" pintype="passive"/>
+      <node ref="U200" pin="41" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="3_TECHO">
+      <node ref="R316" pin="1" pintype="passive"/>
+      <node ref="R317" pin="2" pintype="passive"/>
+      <node ref="U200" pin="42" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="4_MESA">
+      <node ref="R319" pin="1" pintype="passive"/>
+      <node ref="R320" pin="2" pintype="passive"/>
+      <node ref="U200" pin="43" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="4_TECHO">
+      <node ref="R322" pin="1" pintype="passive"/>
+      <node ref="R323" pin="2" pintype="passive"/>
+      <node ref="U200" pin="45" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="5_MESA">
+      <node ref="R325" pin="1" pintype="passive"/>
+      <node ref="R326" pin="2" pintype="passive"/>
+      <node ref="U200" pin="46" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="5_TECHO">
+      <node ref="R328" pin="1" pintype="passive"/>
+      <node ref="R329" pin="2" pintype="passive"/>
+      <node ref="U200" pin="31" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="6_MESA">
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="U200" pin="30" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="6_TECHO">
+      <node ref="R404" pin="1" pintype="passive"/>
+      <node ref="R405" pin="2" pintype="passive"/>
+      <node ref="U200" pin="29" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="7_MESA">
+      <node ref="R407" pin="1" pintype="passive"/>
+      <node ref="R408" pin="2" pintype="passive"/>
+      <node ref="U200" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="7_TECHO">
+      <node ref="R410" pin="1" pintype="passive"/>
+      <node ref="R411" pin="2" pintype="passive"/>
+      <node ref="U200" pin="27" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="8_MESA">
+      <node ref="R413" pin="1" pintype="passive"/>
+      <node ref="R414" pin="2" pintype="passive"/>
+      <node ref="U200" pin="26" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="8_TECHO">
+      <node ref="R416" pin="1" pintype="passive"/>
+      <node ref="R417" pin="2" pintype="passive"/>
+      <node ref="U200" pin="25" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="9_MESA">
+      <node ref="R419" pin="1" pintype="passive"/>
+      <node ref="R420" pin="2" pintype="passive"/>
+      <node ref="U200" pin="20" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="9_TECHO">
+      <node ref="R422" pin="1" pintype="passive"/>
+      <node ref="R423" pin="2" pintype="passive"/>
+      <node ref="U200" pin="19" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="GND">
+      <node ref="C100" pin="2" pintype="passive"/>
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C108" pin="2" pintype="passive"/>
+      <node ref="C200" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="D100" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H100" pin="1" pinfunction="GND_1" pintype="bidirectional"/>
+      <node ref="H100" pin="2" pinfunction="GND_2" pintype="bidirectional"/>
+      <node ref="H100" pin="7" pinfunction="GND_3" pintype="bidirectional"/>
+      <node ref="J100" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J200" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q300" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q301" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q302" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q303" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q304" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q305" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q306" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q307" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q308" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q309" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q400" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q401" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q402" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q403" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q404" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q405" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q406" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q407" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R100" pin="2" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R200" pin="2" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="R311" pin="1" pintype="passive"/>
+      <node ref="R314" pin="1" pintype="passive"/>
+      <node ref="R317" pin="1" pintype="passive"/>
+      <node ref="R320" pin="1" pintype="passive"/>
+      <node ref="R323" pin="1" pintype="passive"/>
+      <node ref="R326" pin="1" pintype="passive"/>
+      <node ref="R329" pin="1" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="R405" pin="1" pintype="passive"/>
+      <node ref="R408" pin="1" pintype="passive"/>
+      <node ref="R411" pin="1" pintype="passive"/>
+      <node ref="R414" pin="1" pintype="passive"/>
+      <node ref="R417" pin="1" pintype="passive"/>
+      <node ref="R420" pin="1" pintype="passive"/>
+      <node ref="R423" pin="1" pintype="passive"/>
+      <node ref="S200" pin="A" pintype="passive"/>
+      <node ref="S200" pin="B" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP104" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U100" pin="6" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U100" pin="8" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U100" pin="9" pinfunction="GND_PAD" pintype="power_in"/>
+      <node ref="U101" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U200" pin="23" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U200" pin="35" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U200" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U200" pin="8" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="Y200" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y200" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C102-Pad1)">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="U100" pin="2" pinfunction="BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(C103-Pad2)">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="U100" pin="3" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="40" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q100" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R100" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D301-Pad2)">
+      <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D302" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K300" pin="1" pintype="passive"/>
+      <node ref="Q300" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D302-Pad2)">
+      <node ref="D302" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R300" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D304-Pad2)">
+      <node ref="D304" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D305" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K301" pin="1" pintype="passive"/>
+      <node ref="Q301" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D305-Pad2)">
+      <node ref="D305" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D307-Pad2)">
+      <node ref="D307" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D308" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K302" pin="1" pintype="passive"/>
+      <node ref="Q302" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D308-Pad2)">
+      <node ref="D308" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D310-Pad2)">
+      <node ref="D310" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D311" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K303" pin="1" pintype="passive"/>
+      <node ref="Q303" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D311-Pad2)">
+      <node ref="D311" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R309" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D313-Pad2)">
+      <node ref="D313" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D314" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K304" pin="1" pintype="passive"/>
+      <node ref="Q304" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D314-Pad2)">
+      <node ref="D314" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R312" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D316-Pad2)">
+      <node ref="D316" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D317" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K305" pin="1" pintype="passive"/>
+      <node ref="Q305" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D317-Pad2)">
+      <node ref="D317" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R315" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D319-Pad2)">
+      <node ref="D319" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D320" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K306" pin="1" pintype="passive"/>
+      <node ref="Q306" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D320-Pad2)">
+      <node ref="D320" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R318" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D322-Pad2)">
+      <node ref="D322" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D323" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K307" pin="1" pintype="passive"/>
+      <node ref="Q307" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D323-Pad2)">
+      <node ref="D323" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R321" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D325-Pad2)">
+      <node ref="D325" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D326" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K308" pin="1" pintype="passive"/>
+      <node ref="Q308" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D326-Pad2)">
+      <node ref="D326" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R324" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D328-Pad2)">
+      <node ref="D328" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D329" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K309" pin="1" pintype="passive"/>
+      <node ref="Q309" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D329-Pad2)">
+      <node ref="D329" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R327" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D401-Pad2)">
+      <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D402" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K400" pin="1" pintype="passive"/>
+      <node ref="Q400" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D402-Pad2)">
+      <node ref="D402" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R400" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D404-Pad2)">
+      <node ref="D404" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D405" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K401" pin="1" pintype="passive"/>
+      <node ref="Q401" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D405-Pad2)">
+      <node ref="D405" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D407-Pad2)">
+      <node ref="D407" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D408" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K402" pin="1" pintype="passive"/>
+      <node ref="Q402" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D408-Pad2)">
+      <node ref="D408" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R406" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D410-Pad2)">
+      <node ref="D410" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D411" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K403" pin="1" pintype="passive"/>
+      <node ref="Q403" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D411-Pad2)">
+      <node ref="D411" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R409" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D413-Pad2)">
+      <node ref="D413" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D414" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K404" pin="1" pintype="passive"/>
+      <node ref="Q404" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D414-Pad2)">
+      <node ref="D414" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R412" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D416-Pad2)">
+      <node ref="D416" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D417" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K405" pin="1" pintype="passive"/>
+      <node ref="Q405" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D417-Pad2)">
+      <node ref="D417" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R415" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D419-Pad2)">
+      <node ref="D419" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D420" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K406" pin="1" pintype="passive"/>
+      <node ref="Q406" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D420-Pad2)">
+      <node ref="D420" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R418" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D422-Pad2)">
+      <node ref="D422" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D423" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K407" pin="1" pintype="passive"/>
+      <node ref="Q407" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D423-Pad2)">
+      <node ref="D423" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R421" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(J300-Pad1)">
+      <node ref="J300" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K300" pin="4" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(J300-Pad2)">
+      <node ref="J300" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K300" pin="3" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(J301-Pad1)">
+      <node ref="J301" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K301" pin="4" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(J301-Pad2)">
+      <node ref="J301" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K301" pin="3" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(J302-Pad1)">
+      <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K302" pin="4" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(J302-Pad2)">
+      <node ref="J302" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K302" pin="3" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(J303-Pad1)">
+      <node ref="J303" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K303" pin="4" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(J303-Pad2)">
+      <node ref="J303" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K303" pin="3" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(J304-Pad1)">
+      <node ref="J304" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K304" pin="4" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(J304-Pad2)">
+      <node ref="J304" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K304" pin="3" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(J305-Pad1)">
+      <node ref="J305" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K305" pin="4" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(J305-Pad2)">
+      <node ref="J305" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K305" pin="3" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(J306-Pad1)">
+      <node ref="J306" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K306" pin="4" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(J306-Pad2)">
+      <node ref="J306" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K306" pin="3" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(J307-Pad1)">
+      <node ref="J307" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K307" pin="4" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(J307-Pad2)">
+      <node ref="J307" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K307" pin="3" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(J308-Pad1)">
+      <node ref="J308" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K308" pin="4" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(J308-Pad2)">
+      <node ref="J308" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K308" pin="3" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(J309-Pad1)">
+      <node ref="J309" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K309" pin="4" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(J309-Pad2)">
+      <node ref="J309" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K309" pin="3" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(J400-Pad1)">
+      <node ref="J400" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K400" pin="4" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(J400-Pad2)">
+      <node ref="J400" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K400" pin="3" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(J401-Pad1)">
+      <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K401" pin="4" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(J401-Pad2)">
+      <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K401" pin="3" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(J402-Pad1)">
+      <node ref="J402" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K402" pin="4" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(J402-Pad2)">
+      <node ref="J402" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K402" pin="3" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(J403-Pad1)">
+      <node ref="J403" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K403" pin="4" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(J403-Pad2)">
+      <node ref="J403" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K403" pin="3" pintype="passive"/>
+    </net>
+    <net code="106" name="Net-(J404-Pad1)">
+      <node ref="J404" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K404" pin="4" pintype="passive"/>
+    </net>
+    <net code="107" name="Net-(J404-Pad2)">
+      <node ref="J404" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K404" pin="3" pintype="passive"/>
+    </net>
+    <net code="108" name="Net-(J405-Pad1)">
+      <node ref="J405" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K405" pin="4" pintype="passive"/>
+    </net>
+    <net code="109" name="Net-(J405-Pad2)">
+      <node ref="J405" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K405" pin="3" pintype="passive"/>
+    </net>
+    <net code="110" name="Net-(J406-Pad1)">
+      <node ref="J406" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K406" pin="4" pintype="passive"/>
+    </net>
+    <net code="111" name="Net-(J406-Pad2)">
+      <node ref="J406" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K406" pin="3" pintype="passive"/>
+    </net>
+    <net code="112" name="Net-(J407-Pad1)">
+      <node ref="J407" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K407" pin="4" pintype="passive"/>
+    </net>
+    <net code="113" name="Net-(J407-Pad2)">
+      <node ref="J407" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K407" pin="3" pintype="passive"/>
+    </net>
+    <net code="114" name="Net-(Q300-Pad1)">
+      <node ref="Q300" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+    </net>
+    <net code="115" name="Net-(Q301-Pad1)">
+      <node ref="Q301" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+    </net>
+    <net code="116" name="Net-(Q302-Pad1)">
+      <node ref="Q302" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R307" pin="2" pintype="passive"/>
+    </net>
+    <net code="117" name="Net-(Q303-Pad1)">
+      <node ref="Q303" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R310" pin="2" pintype="passive"/>
+    </net>
+    <net code="118" name="Net-(Q304-Pad1)">
+      <node ref="Q304" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R313" pin="2" pintype="passive"/>
+    </net>
+    <net code="119" name="Net-(Q305-Pad1)">
+      <node ref="Q305" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R316" pin="2" pintype="passive"/>
+    </net>
+    <net code="120" name="Net-(Q306-Pad1)">
+      <node ref="Q306" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R319" pin="2" pintype="passive"/>
+    </net>
+    <net code="121" name="Net-(Q307-Pad1)">
+      <node ref="Q307" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R322" pin="2" pintype="passive"/>
+    </net>
+    <net code="122" name="Net-(Q308-Pad1)">
+      <node ref="Q308" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R325" pin="2" pintype="passive"/>
+    </net>
+    <net code="123" name="Net-(Q309-Pad1)">
+      <node ref="Q309" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R328" pin="2" pintype="passive"/>
+    </net>
+    <net code="124" name="Net-(Q400-Pad1)">
+      <node ref="Q400" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+    </net>
+    <net code="125" name="Net-(Q401-Pad1)">
+      <node ref="Q401" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R404" pin="2" pintype="passive"/>
+    </net>
+    <net code="126" name="Net-(Q402-Pad1)">
+      <node ref="Q402" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R407" pin="2" pintype="passive"/>
+    </net>
+    <net code="127" name="Net-(Q403-Pad1)">
+      <node ref="Q403" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R410" pin="2" pintype="passive"/>
+    </net>
+    <net code="128" name="Net-(Q404-Pad1)">
+      <node ref="Q404" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R413" pin="2" pintype="passive"/>
+    </net>
+    <net code="129" name="Net-(Q405-Pad1)">
+      <node ref="Q405" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R416" pin="2" pintype="passive"/>
+    </net>
+    <net code="130" name="Net-(Q406-Pad1)">
+      <node ref="Q406" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R419" pin="2" pintype="passive"/>
+    </net>
+    <net code="131" name="Net-(Q407-Pad1)">
+      <node ref="Q407" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R422" pin="2" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(H100-Pad6)">
+      <node ref="H100" pin="6" pinfunction="INTN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(H100-Pad10)">
+      <node ref="H100" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U200-Pad2)">
+      <node ref="U200" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="135" name="unconnected-(U200-Pad3)">
+      <node ref="U200" pin="3" pinfunction="PC14" pintype="bidirectional"/>
+    </net>
+    <net code="136" name="unconnected-(U200-Pad4)">
+      <node ref="U200" pin="4" pinfunction="PC15" pintype="bidirectional"/>
+    </net>
+    <net code="137" name="unconnected-(U200-Pad10)">
+      <node ref="U200" pin="10" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="138" name="unconnected-(U200-Pad11)">
+      <node ref="U200" pin="11" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="139" name="unconnected-(U200-Pad12)">
+      <node ref="U200" pin="12" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="140" name="unconnected-(U200-Pad14)">
+      <node ref="U200" pin="14" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="141" name="unconnected-(U200-Pad21)">
+      <node ref="U200" pin="21" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="142" name="unconnected-(U200-Pad22)">
+      <node ref="U200" pin="22" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="143" name="unconnected-(U200-Pad33)">
+      <node ref="U200" pin="33" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
